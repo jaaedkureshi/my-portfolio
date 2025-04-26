@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaaed Kureshi | Programmer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Correct FontAwesome icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 20% 30%, #d0eaff, transparent 25%),
+                  radial-gradient(circle at 80% 70%, #ffd6e0, transparent 25%),
+                  linear-gradient(135deg, #f9f9f9, #e6ecf0);
+      background-blend-mode: overlay;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #6c63ff;
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      font-size: 1.8rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    .card h4 {
+      background: #6c63ff;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #6c63ff;
+      transition: transform 0.3s, color 0.3s;
+    }
+
+    .socials a:hover {
+      transform: scale(1.2);
+      color: #4834d4;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 400px) {
+      .card {
+        padding: 1.5rem;
+      }
+    }
+    /**/
+    
+  body {
+    min-height: 100vh;
+    background: linear-gradient(270deg, #8EC5FC, #E0C3FC, #F9F9F9);
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+</style>
+  
+</head>
+<body>
+
+  <div class="card">
+<img src="https://i.ibb.co/SDZcLBVr/file-00000000339061f7a81189d1b9b632ad-conversation-id-67fa21ca-4c78-8013-a372-baa0ad497cb5-message-i.png" alt="file-00000000339061f7a81189d1b9b632ad-conversation-id-67fa21ca-4c78-8013-a372-baa0ad497cb5-message-i"  /></a>
+    <h2>Jaaed Kureshi</h2>
+    <h4>Programmer</h4>
+    <p>I build things for the web with code, creativity, and curiosity. Passionate about clean UI, sharp logic, and impactful experiences.</p>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/jaaed-kureshi-bb565431b" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/jaaedkureshi" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/posts/jaaed-kureshi-bb565431b_my-resume-activity-7321781689339297792-Mgix" target="_blank" title="Download Resume">
+        <i class="fas fa-file-arrow-down"></i>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
